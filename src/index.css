@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(33, 33, 39);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Logo-image {
+   position: relative;
+  top: -10px; 
+  height: 40px;
+  width: 50px;
+  /* position: absolute; */
+   /* left: 10px;  */
+   display: flex;
+  margin-top: 3px;
+   padding:20px 10px 4px; 
+  justify-content: left; 
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+  /* align-items: center; */
+  gap: 20px;
+  padding: 0px 20px;
+  color: aliceblue;
+}
+.List {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  color: aliceblue;
+  margin-top: -20px;
+}
+.List-Items {
+  display: flexbox;
+  justify-content: left;
+  color: aqua;
+  
+}
+.List-Items p {
+  color: aliceblue;
+font-size: 16px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(77, 84, 124);
+  color: white;
+  text-align: center;
+}
+.navbar {
+  font-size: 10px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, 0.5)
+} 
+
+/* .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a{
+  color: rgb(0, 0, 0);
+  padding: 10px ;
+  text-decoration: none;
+
+
+} */
+
+.navbaritem {
+position: absolute;
+right: 50px;
+color: rgb(219, 217, 217);
+}
+
+.reactfacts{
+  position: absolute;
+right: 1190px;
+font-size: 20px;
+color: rgb(0, 225, 255);
+/* box-shadow: white; */
+}
+
+ .ReactLogo-image{
+position: absolute;
+left: 1105px;
+opacity: 30%;
+margin-top: -65px;
+} 
